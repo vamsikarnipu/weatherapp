@@ -119,11 +119,13 @@ body {
     margin-top: 10px;
     font-size: 14px;
 }
-@keyframes fadeIn {
-    from {
-      opacity: 0;
+@media screen  and (max-width:460px){
+    .search{
+        /* width: fit-content; */
+        flex-wrap: wrap;
     }
-    to {
-      opacity: 1;
+    .search button{
+        margin-top: 30px;
     }
-  }
+    
+}
